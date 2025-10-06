@@ -5,10 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main {
+    margin: 0 120px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 40px 120px;
+    margin-top: 40px;
 }
 
 .logo > h4 {
@@ -28,7 +32,7 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 60px 120px;
+    padding: 60px 0;
     align-items: center;
 }
 .hero-left {
@@ -59,4 +63,113 @@
     background-size: cover;
     width: 450px;
     height: 450px;
+}
+
+.brand {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.collections {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.collection-heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.card {
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.363);
+    > img {
+        border-radius: 10px;
+        width: 300px;
+        height: 256px;
+        padding-bottom: 10px;
+    } > h3 {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    } > h4{
+        font-size: 24px;
+        padding-bottom: 10px;
+    } > p {
+        font-size: 14px;
+        padding-bottom: 5px;
+        line-height: 20px;
+    }
+}
+
+.star {
+    color: gold;
+    display: flex;
+    padding-bottom: 5px;
+    > p {
+        padding-left: 10px;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+.cta {
+    color: #E02C6D;
+    /* text-align: center; */
+    text-decoration: none;
+    padding-bottom: 60px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 60px;
+    > img {
+        width: 404px;
+        height: 270px;
+    }
+}
+
+.feature-right {
+    > h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    } > p {
+        font-size: 18px;
+        padding-bottom: 20px;
+        line-height: 28px;
+    }
+}
+
+.btn-feature {
+    padding: 10px 30px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+}
+
+footer {
+    background-color: #0A0826;
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 60px 0;
+    > h3 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    } > p {
+        padding-bottom: 15px;
+    }
+}
+
+.icons i {
+    padding: 20px;
+    /* background-color: #22203b;
+    border-radius: 50px; */
 }
