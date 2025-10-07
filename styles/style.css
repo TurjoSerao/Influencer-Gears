@@ -6,7 +6,9 @@
 }
 
 .main {
-    margin: 0 120px;
+    width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 .header {
